@@ -1,11 +1,8 @@
 .heading {
 font-family: copperplate , strong, large;
+font-size: larger;
 color: rgb(13, 12, 0);
 }
-
-
-color palette 246, 244, 210
-color palette 229, 234, 183
 
 .smallheader {
 Font: papyrus, strong, large;
@@ -15,19 +12,40 @@ Text decoration :underline;
 
 .background {
     background-color:rgb(246, 244, 210);
+    position:relative;
 }
 
 #controlpanel {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200;
+    font-size: 40px;
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    text-align:center;
+    justify-content: space-evenly ;
 }
 
-.aboutme {
-    box-sizing:border-box;
+.profile-picture {
     display:inline-block;
+    width:500px;
+    height:500px;
+    position:relative;
+    left:20%;
 }
 
-#about-me {
-
-
+.box {
+display:inline-block;
+border:5px solid black;
 }
+
+#title {
+    text-align: center;
+    position:relative;
+}
+
+#mood-text {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+color palette 246, 244, 210
+color palette 229, 234, 183
