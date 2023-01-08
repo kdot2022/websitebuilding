@@ -29,12 +29,16 @@ Text decoration :underline;
     width:500px;
     height:500px;
     position:relative;
-    left:20%;
+    left:50%;
 }
 
 .box {
 display:inline-block;
 border:5px solid black;
+height: 450px;
+width: 600px;
+position: absolute;
+top:150px
 }
 
 #title {
