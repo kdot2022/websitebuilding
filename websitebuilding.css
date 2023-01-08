@@ -4,11 +4,6 @@ font-size: larger;
 color: rgb(13, 12, 0);
 }
 
-.smallheader {
-Font: papyrus, strong, large;
-color: orange;
-Text decoration :underline;
-}
 
 .background {
     background-color:rgb(246, 244, 210);
@@ -22,6 +17,7 @@ Text decoration :underline;
     border-bottom:2px solid black;
     text-align:center;
     justify-content: space-evenly ;
+    position:fixed;
 }
 
 .profile-picture {
@@ -35,7 +31,7 @@ Text decoration :underline;
 .box {
 display:inline-block;
 border:5px solid black;
-height: 450px;
+height: 400px;
 width: 600px;
 position: absolute;
 top:150px
@@ -50,6 +46,3 @@ top:150px
     font-size: 30px;
     font-family: sans-serif;
 }
-
-color palette 246, 244, 210
-color palette 229, 234, 183
