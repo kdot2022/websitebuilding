@@ -17,12 +17,13 @@ color: rgb(13, 12, 0);
     border-bottom:2px solid black;
     text-align:center;
     justify-content: space-evenly ;
-    position:fixed;
+    position:sticky;
+    top:2px;
 }
 
 .profile-picture {
     display:inline-block;
-    width:500px;
+    width:400px;
     height:500px;
     position:relative;
     left:50%;
